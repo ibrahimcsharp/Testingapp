@@ -23,7 +23,7 @@ pipeline {
         stage('Run Docker Image')
         steps{
            script {
-            sh '/usr/local/bin/docker run -p 8090:80 testingapp-image .'
+            sh '/usr/local/bin/docker run -p 8090:80 testingapp-image'
            } 
         }
     }
