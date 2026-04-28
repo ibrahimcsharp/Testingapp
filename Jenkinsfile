@@ -20,7 +20,7 @@ pipeline {
         stage('Run Docker Container') {
             steps {
                 script {
-                    bat 'docker run -d -p 8090:80 testingapp-image'
+                    bat 'docker run -d -p 8095:80 testingapp-image'
                 }
             }
         }
